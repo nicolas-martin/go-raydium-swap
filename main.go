@@ -57,7 +57,7 @@ type SwapTransactionResponse struct {
 
 func main() {
 	// Load wallet key
-	keyData, err := os.ReadFile("/Users/nma/dev/dankfolio/backend/keys/mainnet-wallet-1.json")
+	keyData, err := os.ReadFile("path/to/your/wallet.json")
 	if err != nil {
 		log.Fatalf("Failed to read keypair file: %v", err)
 	}
